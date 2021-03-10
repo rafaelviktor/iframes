@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(fundo-tecno.jpg);
+    color: #fff;
+}
+#container {
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 8px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 93%;
+    height: 550px;
+}
+p {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+dt {
+    font-size: 25px;
+    margin-left: 35px;
+}
+.blue {
+    color: #4646ff;
+}
