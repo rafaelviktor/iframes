@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Vertical</title>
+    <style>
+        html, body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            height:100%;
+            width: 100%;
+        }
+        .vertical-menu {
+            overflow: hidden;
+            width: 200px;
+            height: 100vh;
+            background-color: #000;
+        }
+
+        .vertical-menu p {
+            background-color: #000;
+            color: #fff;
+            display: block;
+            font-size: 40px;
+            padding: 35px;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+        }
+
+        .vertical-menu a:hover {
+            background-color: #363636;
+        }
+
+        .vertical-menu a.active {
+            background-color: #4646ff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="vertical-menu">
+    <p>Seja bem-vindo!</p>
+    </div>
+</body>
+</html>
