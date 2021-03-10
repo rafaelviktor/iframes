@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Vertical</title>
+    <style>
+        html, body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            height:100%;
+            width: 100%;
+        }
+        .vertical-menu {
+            overflow: hidden;
+            width: 200px;
+            height: 100vh;
+            background-color: #000;
+        }
+
+        .vertical-menu a {
+            background-color: #000;
+            color: #fff;
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+        }
+
+        .vertical-menu a:hover {
+            background-color: #363636;
+        }
+
+        .vertical-menu a.active {
+            background-color: #4646ff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="vertical-menu">
+        <a href="ebay.html" target="container-main">História do Ebay</a>
+        <a href="google.html" target="container-main">História da Google</a>
+        <a href="microsoft.html" target="container-main">História da Microsoft</a>
+        <a href="apple.html" target="container-main">História da Apple</a>
+        <a href="playstation.html" target="container-main">História do Playstation</a>
+    </div>
+</body>
+</html>
